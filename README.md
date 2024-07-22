@@ -25,10 +25,18 @@ compared to the state-of-the-art method. This study provides insights for
 future research on the design and optimization of backbone architecture,
 steering towards more efficient foundational  foundational segmentation models.
 
+<div align=center>
+<img src="MetaUNETR/figs/arch.jpg"  width="60%">
+</div>
+
 ## Description
 
 Our findings reveal that the general architecture of MetaFormers is more vital for model performance than any specific token mixer module. Comparative analyses using CKA uncovered significant similarities and the importance of features within the upper encoder layers while also identifying redundant computation in the bottom layers.
 
 <div align=center>
-<img src="https://github.com/lyupengju/Flare23/blob/main/figures/models.png"  width="60%">
+<img src="MetaUNETR/figs/val_jpg.jpg"  width="60%">
 </div>
+<div align=center>
+<img src="MetaUNETR/figs/cka_jpg.jpg"  width="60%">
+</div>
+
