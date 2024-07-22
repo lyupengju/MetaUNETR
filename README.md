@@ -19,7 +19,7 @@ ing capabilities among these token mixers, we find that the overall archi-
 tecture of the model, rather than any specific token mixers, plays a more
 crucial role in determining the model’s performance. Our method is vali
 dated across multiple benchmarks varying in size and scale, including the
-BTCV, AMOS, and AbdomenCT-1K datasets, achieving the top segmen
+**BTCV, AMOS, and AbdomenCT-1K** datasets, achieving the top segmen
 tation performance while reducing the model’s parameters by about 80%
 compared to the state-of-the-art method. This study provides insights for
 future research on the design and optimization of backbone architecture,
@@ -40,3 +40,10 @@ Our findings reveal that the general architecture of MetaFormers is more vital f
 <img src="MetaUNETR/figs/cka_jpg.jpg"  width="60%">
 </div>
 
+## Prerequisites
+- Ubuntu 20.04.5 LTS
+- Python 3.8
+- torch 2.0.1
+- torchvision 0.15.2
+- CUDA 11.8
+- monai 1.2.0
