@@ -1,6 +1,8 @@
 # MetaUNETR: Rethinking Token Mixer Encodingfor Efficient Multi-Organ Segmentation
-Pengju Lyu, Jie Zhang, Lei Zhang, Wenjian Liu, Cheng Wang, Jianjun Zhu
+This repository is the official model implementation of our accepted paper in MICCAI 2024.
+**Authors:** Pengju Lyu, Jie Zhang, Lei Zhang, Wenjian Liu, Cheng Wang, Jianjun Zhu
 
+## Abstract
 The Transformer architecture and versatile CNN backbones
 have led to advanced progress in sequence modeling and dense predic-
 tion tasks. A critical development is the incorporation of different to-
